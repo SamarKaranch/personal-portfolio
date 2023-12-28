@@ -18,7 +18,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am a Student at University of Central Florida, pursuing
+              I am a Student at the University of Central Florida, pursuing a
               bachelor’s degree in computer science. Has experience in teaching
               and customer service. Proven ability to help customers with their
               needs through simplifying problems and solutions.
