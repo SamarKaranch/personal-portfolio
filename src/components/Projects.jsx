@@ -1,6 +1,7 @@
 import React from "react";
 import FocusFlow from '../assets/FocusFlow.png'
 import Reminders from '../assets/Reminders.png'
+import Portfolio from '../assets/Portfolio.png'
 
 const Projects = () => {
   return (
@@ -11,7 +12,7 @@ const Projects = () => {
             <p className="py-6">Here are my projects</p>
         </div>
         {/*Grid*/}
-        <div className="grid sm:cols-2 md:grid-cols-2 gap-4 rounded-md">
+        <div className="grid sm:cols-2 md:grid-cols-3 gap-4 rounded-md">
             {/*Grid Item*/}
             <div style={{backgroundImage: `url(${FocusFlow})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                 <div className="opacity-0 group-hover:opacity-100">
@@ -38,6 +39,20 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+
+            <div style={{backgroundImage: `url(${Portfolio})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                <div className="opacity-0 group-hover:opacity-100">
+                    <span className="text-2xl font-bold text-gray-300 tracking-wider">
+                        Personal Portfolio
+                    </span>
+                    <div className="pt-8 text-center">
+                        <a href="https://github.com/SamarKaranch/personal-portfolio" target="_blank">
+                            <button className=" text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">Code</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
       </div>
     </div>
