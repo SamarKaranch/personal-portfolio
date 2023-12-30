@@ -104,7 +104,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-teal-600">
             <button
               className="flex justify-between items-center w-full text-gray-300"
-              onClick={() => window.location.href = `mailto:samarkaranch@gmail.com`}
+              onClick={() => window.location.href = 'mailto:samarkaranch@gmail.com'}
             >
               Email <HiOutlineMail size={30} />
             </button>
@@ -112,13 +112,14 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/1fPxnbwQtJKasCV8ap28WGMcTD3smeyCq/view?usp=sharing" target="_blank"
+              href='/SamarKaranchResume.pdf' target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
       </div>
+      
     </div>
   );
 };
